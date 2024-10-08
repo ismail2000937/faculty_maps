@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "faculty-maps",
+    "slug": "faculty-maps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_maps.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo_maps.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo_maps.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCT71cEhPngYk42VTKY7O5VpUV3yP5w6bI"
+        }
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "com.ismail_tarik.facultymaps"
+    },
+    "web": {
+      "favicon": "./assets/images/logo_maps.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8a195f42-717a-4bbc-9669-62e9e214de18"
+      }
+    }
+  }
+}
